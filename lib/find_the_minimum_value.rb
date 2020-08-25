@@ -1,3 +1,4 @@
 def find_min_value(array)
-  # Add your solution here
+  min = array.min
+  array.find { |number| number == min}
 end
